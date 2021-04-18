@@ -1,30 +1,185 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Weather and Climate</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
+<head>
+    <title>Brian Kerschner</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Brian';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Brian</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Education</a></li>
+				        <li><a href="#skills">Skills</a></li>
+						<li><a href="#skills">My Work</a></li>						
+						
+						<ul class="social list-flat right">
+						<li><a href="mailto:bmkersch87@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/bmkersch87"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/bmkersch/"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+					
+				    </ul>					
+				</nav>			    
+			</header>
+		</div>
+	</div>
+	
+
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Brian the reseach scientist, program coordinator, and administrator.</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1><br><span id="typed"></span></h1><br>
+				</div>
+				<p>
+					 <br><br> Brian is an <b>enthusiastic</b>, <b>detail-oriented</b> Project Coordinator and Data Analyst with extensive experience working in <b>Earth sciences</b>, <b>data visualization</b>, and <b>higher education</b>. Strong focus on environmental research, training and outreach, and geographic information systems (GIS). Experience includes research administration, grant writing, purchasing, reinsurance, and analyzing spatial and environmental variables. 
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work Experiences</h1>
+			<ul class="work-list">
+				<li>2020-Present</li>
+				<li><a href="#">Aon Impact Forecasting</a></li>
+				<li>Senior Catastrophe Analyst</li>
 			</ul>
-		</footer>
-	</body>
+			<ul class="work-list">
+				<li>2011-2020</li>
+				<li><a href="#">Illinois State Water Survey</a></li>
+				<li>Special Projects Coordniator
+				<br> Interim State Climatologist
+				<br> Assistant Program Manager
+				<br> Data and Information Analyst</li>
+			</ul>
+			<ul class="work-list">
+				<li>2009-2011</li>
+				<li><a href="#">Delaware Environmental Observing System</a></li>
+				<li>Graduate Research Assistant</li>
+			</ul>			
+			<ul class="work-list">
+				<li>2005-2009</li>
+				<li><a href="#">Millersville University of Pennsylvania</a></li>
+				<li>Teaching Assistant
+				<br>Undergraduate Researcher
+				<br>Lead Weather Forecaster</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="award-list list-flat">
+				<li>August 2011</li>
+				<li><b>Master of Science: Physical Geography</b></li>
+				<li>Certificate: Geographic Information Systems</li>
+				<li>University of Delaware</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>May 2009</li>
+				<li><b>Bachelor of Science: Meteorology</b></li>
+				<li>Minor: Physical Geography</li>
+				<li>Millersville University of Pennsylvania </li>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Computer ad Software</li>
+				<li>Microsoft Office / R and R-studio / Tableau / Python / Adobe
+				</br> Geographic Information Systems (GIS) / ESRI ArcMap / QGIS </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Industry Knowledge</li>
+				<li>Meteorology / Physical Geography / Climte Change / Reinsurace</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Program Managment</li>
+				<li>Research Administration / Grant Writing / Leadership / Finance and Budgeting</li>
+			</ul>
+		</div>
+	</div>
+	
+		<!-- My Work -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>My Work</h1>
+			<ul class="skill-list list-flat">
+				<li><a href="https://wxvortex87.github.io/test.html">Open Source Web Mapping</a></li>
+				<li>Leaflet web app showcasing atmospheric variables from the United States
+				</br> severe weather and tornado outbreak of March 24-26, 2021</li>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p><a href="#"><b>Brian Kerschner </b></a> : updated April 2021</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:bmkersch87@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/bmkersch87"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/bmkersch/"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+			<p><small>Licensed under Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="nofollow">CC BY-NC-SA 4.0</a>. Which means that you are free to copy and redistribute the material in any medium or format and remix, transform, and build upon the material.
+				<br>Template designed and developed by Afnizar Nur Ghifari.</small></p>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Senior Catastrophe Analyst", "Chicago, Illinois"],
+
+		typeSpeed:50,backDelay:900,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
 </html>
